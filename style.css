@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.summary-card {
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.summary-card h5 {
+    font-size: 1.2rem;
+}
+
+.summary-card p {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.qr-img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.btn-lg, .btn {
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
